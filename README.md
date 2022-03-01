@@ -120,5 +120,4 @@ python multi_camera_multi_person_tracking.py \
     --config configs/person.py
 ```
 
-
-# The saved detections can be passed from the code as specify the argument `--detections` with path to detections file or by default read from detections_record.json.
+The saved detections can be passed from the code as specify the argument `--detections` with path to detections file or by default read from detections_record.json.
