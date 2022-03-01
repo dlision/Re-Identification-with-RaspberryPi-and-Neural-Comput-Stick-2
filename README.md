@@ -87,7 +87,7 @@ python multi_camera_multi_person_tracking.py \
     --config configs/person.py
 ```
 
-# Such file with detections can be saved from the code. Specify the argument `--save_detections` with path to an output file or by default saved in detections_record.json.
+Such file with detections can be saved from the code. Specify the argument `--save_detections` with path to an output file or by default saved in detections_record.json.
 
 #### For Re-identification model
 
