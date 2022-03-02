@@ -1,6 +1,10 @@
 # Re-Identification with RaspberryPi and Neural Compute Stick 2\* 
 
-This readme is for the 'decoupled'/'after hours'/'offline' ReID version of Multi Camera Multi Target demo of OpenVINO.
+In this project, we will use two models person detection for retial and re-identification for retail. These models are availble in the Intel OpenVINO model zoo.
+The person detection model for the Retail scenario is based on MobileNetV2-like backbone that includes depth-wise convolutions to reduce the amount of computation for the 3x3 convolution block. The single SSD head from 1/16 scale feature map has 12 clustered prior boxes.
+This is us person reidentification model uses a whole body image as an input and outputs an embedding vector to match a pair of images by the Cosine distance. The model is based on RMNet backbone that was developed for fast inference. A single reidentification head from the 1/16 scale feature map outputs the embedding vector of 256 floats.
+
+The models are listed in the file [model.lst](https://github.com/dlision/Re-Identification-with-RaspberryPi-and-Neural-Comput-Stick-2/blob/master/models.lst)
 
 ## How it works
 The project workflow is the following:
