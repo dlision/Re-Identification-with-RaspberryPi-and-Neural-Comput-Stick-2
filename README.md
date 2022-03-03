@@ -7,6 +7,17 @@ This is us person reidentification model uses a whole body image as an input and
 The models are listed in the file [model.lst](https://github.com/dlision/Re-Identification-with-RaspberryPi-and-Neural-Comput-Stick-2/blob/master/models.lst)
 ## Re-Identification model output
 ![output_gif](https://github.com/dlision/Re-Identification-with-RaspberryPi-and-Neural-Comput-Stick-2/blob/master/out.gif)
+
+## Benchmarks on CPU
+Include the benchmark results of running multiple model precisions. 
+ The CPU used was **Intel® Core™ i3-8350K CPU @ 4.00GHz × 4** and **16 GB Ram**
+
+| Properties  | CPU         | NCS with CPU |NCS2 with Raspberry |
+| ------------| ----------- | ------------ | -----------------  |
+|Model Loading|             |              | -                  |
+|Infer Time   |             |              | -                  |
+|FPS          |             |              | -                  |
+
 ## How it works
 The project workflow is the following:
 
