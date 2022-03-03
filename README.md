@@ -8,7 +8,7 @@ The models are listed in the file [model.lst](https://github.com/dlision/Re-Iden
 ## Re-Identification model output
 ![output_gif](https://github.com/dlision/Re-Identification-with-RaspberryPi-and-Neural-Comput-Stick-2/blob/master/out.gif)
 
-## Benchmarks on CPU
+## Benchmarks
 Include the benchmark results of running multiple model precisions. 
  The CPU used was **Intel® Core™ i3-8350K CPU @ 4.00GHz × 4** and **16 GB Ram**
 
