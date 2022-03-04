@@ -11,6 +11,16 @@ The models are listed in the file [model.lst](https://github.com/dlision/Re-Iden
 ## Benchmarks
 Include the benchmark results of running multiple model precisions. 
  The CPU used was **Intel® Core™ i3-8350K CPU @ 4.00GHz × 4** and **16 GB Ram**
+ 
+### For Detection model
+
+| Properties  | CPU         | NCS with CPU |NCS2 with Raspberry |
+| ------------| ----------- | ------------ | -----------------  |
+|Model Loading| 0.180       | 2.149        | -                  |
+|Infer Time   | 0.021       | 0.033        | -                  |
+|FPS          | 26.466      | 8.449        | -                  |
+
+### For Re-Idendification model
 
 | Properties  | CPU         | NCS with CPU |NCS2 with Raspberry |
 | ------------| ----------- | ------------ | -----------------  |
