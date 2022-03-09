@@ -24,9 +24,9 @@ Include the benchmark results of running multiple model precisions.
 
 | Properties  | CPU         | NCS with CPU |NCS2 with Raspberry |
 | ------------| ----------- | ------------ | -----------------  |
-|Model Loading|             |              | -                  |
-|Infer Time   |             |              | -                  |
-|FPS          |             |              | -                  |
+|Model Loading| 0.277       | 2.203        | -                  |
+|Infer Time   | 0.019       | 0.115        | -                  |
+|FPS          | 32.54       | 5.971        | -                  |
 
 ## How it works
 The project workflow is the following:
